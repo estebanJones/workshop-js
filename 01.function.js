@@ -28,4 +28,4 @@ const afficherOperation = function(nomOperation, operation, nb1, nb2) {
 
 console.log(afficherOperation("Somme", somme, 20, 40));
 console.log(afficherOperation("Multiplication", multiplication, 10, 20))
-console.log(afficherOperation("Soustraction", function(nb1, nb2) {return nb1 - nb2}, 15, 5))
+console.log(afficherOperation("Soustraction", function(a, b) {return a - b}, 15, 5))

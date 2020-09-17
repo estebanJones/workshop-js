@@ -1,9 +1,7 @@
 var villes = ['nantes', 'paris', 'saint-nazaire', 'angers', 'le mans'];
 
 //forEach()
-villes.forEach(function(ville){
-    console.log(ville);
-});
+villes.forEach(ville => console.log(ville));
 
 //every()
 var contientA = function(ville) {
